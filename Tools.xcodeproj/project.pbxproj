@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E04E92D1DA9EC8C0025047F /* 2.9.18.6.js in Resources */ = {isa = PBXBuildFile; fileRef = 7E04E92C1DA9EC8C0025047F /* 2.9.18.6.js */; };
+		7E04E9331DA9F4D90025047F /* 2.9.17.15.js in Resources */ = {isa = PBXBuildFile; fileRef = 7E04E9321DA9F4D90025047F /* 2.9.17.15.js */; };
+		7EAB25CD1DACBA0C005DD0A6 /* 2.9.17.2.js in Resources */ = {isa = PBXBuildFile; fileRef = 7EAB25CC1DACBA0C005DD0A6 /* 2.9.17.2.js */; };
 		7ECC3EA21CF7FB3700B452C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC3EA11CF7FB3700B452C5 /* main.m */; };
 		7ECC3EA51CF7FB3700B452C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC3EA41CF7FB3700B452C5 /* AppDelegate.m */; };
 		7ECC3EA81CF7FB3700B452C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC3EA71CF7FB3700B452C5 /* ViewController.m */; };
@@ -15,6 +18,10 @@
 		7ECC3EB01CF7FB3700B452C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ECC3EAE1CF7FB3700B452C5 /* LaunchScreen.storyboard */; };
 		7ECC3EBB1CF7FB3700B452C5 /* ToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC3EBA1CF7FB3700B452C5 /* ToolsTests.m */; };
 		7ECC3EC61CF7FB3700B452C5 /* ToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC3EC51CF7FB3700B452C5 /* ToolsUITests.m */; };
+		7ECC3EDE1CF7FB4700B452C5 /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC3ED71CF7FB4700B452C5 /* RNCryptor.m */; };
+		7ECC3EDF1CF7FB4700B452C5 /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC3ED91CF7FB4700B452C5 /* RNCryptorEngine.m */; };
+		7ECC3EE01CF7FB4700B452C5 /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC3EDB1CF7FB4700B452C5 /* RNDecryptor.m */; };
+		7ECC3EE11CF7FB4700B452C5 /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC3EDD1CF7FB4700B452C5 /* RNEncryptor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E04E92C1DA9EC8C0025047F /* 2.9.18.6.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = 2.9.18.6.js; sourceTree = "<group>"; };
+		7E04E9321DA9F4D90025047F /* 2.9.17.15.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = 2.9.17.15.js; sourceTree = "<group>"; };
+		7EAB25CC1DACBA0C005DD0A6 /* 2.9.17.2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = 2.9.17.2.js; sourceTree = "<group>"; };
 		7ECC3E9D1CF7FB3700B452C5 /* Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECC3EA11CF7FB3700B452C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7ECC3EA31CF7FB3700B452C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,16 @@
 		7ECC3EC11CF7FB3700B452C5 /* ToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECC3EC51CF7FB3700B452C5 /* ToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolsUITests.m; sourceTree = "<group>"; };
 		7ECC3EC71CF7FB3700B452C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ECC3ED41CF7FB4700B452C5 /* RNCryptor+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor+Private.h"; sourceTree = "<group>"; };
+		7ECC3ED51CF7FB4700B452C5 /* RNCryptor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-Prefix.pch"; sourceTree = "<group>"; };
+		7ECC3ED61CF7FB4700B452C5 /* RNCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptor.h; sourceTree = "<group>"; };
+		7ECC3ED71CF7FB4700B452C5 /* RNCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptor.m; sourceTree = "<group>"; };
+		7ECC3ED81CF7FB4700B452C5 /* RNCryptorEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptorEngine.h; sourceTree = "<group>"; };
+		7ECC3ED91CF7FB4700B452C5 /* RNCryptorEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptorEngine.m; sourceTree = "<group>"; };
+		7ECC3EDA1CF7FB4700B452C5 /* RNDecryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNDecryptor.h; sourceTree = "<group>"; };
+		7ECC3EDB1CF7FB4700B452C5 /* RNDecryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNDecryptor.m; sourceTree = "<group>"; };
+		7ECC3EDC1CF7FB4700B452C5 /* RNEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNEncryptor.h; sourceTree = "<group>"; };
+		7ECC3EDD1CF7FB4700B452C5 /* RNEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNEncryptor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +121,14 @@
 		7ECC3E9F1CF7FB3700B452C5 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				7ECC3ED31CF7FB4700B452C5 /* RNCryptor */,
 				7ECC3EA31CF7FB3700B452C5 /* AppDelegate.h */,
 				7ECC3EA41CF7FB3700B452C5 /* AppDelegate.m */,
 				7ECC3EA61CF7FB3700B452C5 /* ViewController.h */,
 				7ECC3EA71CF7FB3700B452C5 /* ViewController.m */,
+				7EAB25CC1DACBA0C005DD0A6 /* 2.9.17.2.js */,
+				7E04E9321DA9F4D90025047F /* 2.9.17.15.js */,
+				7E04E92C1DA9EC8C0025047F /* 2.9.18.6.js */,
 				7ECC3EA91CF7FB3700B452C5 /* Main.storyboard */,
 				7ECC3EAC1CF7FB3700B452C5 /* Assets.xcassets */,
 				7ECC3EAE1CF7FB3700B452C5 /* LaunchScreen.storyboard */,
@@ -138,6 +162,23 @@
 				7ECC3EC71CF7FB3700B452C5 /* Info.plist */,
 			);
 			path = ToolsUITests;
+			sourceTree = "<group>";
+		};
+		7ECC3ED31CF7FB4700B452C5 /* RNCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				7ECC3ED41CF7FB4700B452C5 /* RNCryptor+Private.h */,
+				7ECC3ED51CF7FB4700B452C5 /* RNCryptor-Prefix.pch */,
+				7ECC3ED61CF7FB4700B452C5 /* RNCryptor.h */,
+				7ECC3ED71CF7FB4700B452C5 /* RNCryptor.m */,
+				7ECC3ED81CF7FB4700B452C5 /* RNCryptorEngine.h */,
+				7ECC3ED91CF7FB4700B452C5 /* RNCryptorEngine.m */,
+				7ECC3EDA1CF7FB4700B452C5 /* RNDecryptor.h */,
+				7ECC3EDB1CF7FB4700B452C5 /* RNDecryptor.m */,
+				7ECC3EDC1CF7FB4700B452C5 /* RNEncryptor.h */,
+				7ECC3EDD1CF7FB4700B452C5 /* RNEncryptor.m */,
+			);
+			path = RNCryptor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +284,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EAB25CD1DACBA0C005DD0A6 /* 2.9.17.2.js in Resources */,
 				7ECC3EB01CF7FB3700B452C5 /* LaunchScreen.storyboard in Resources */,
+				7E04E92D1DA9EC8C0025047F /* 2.9.18.6.js in Resources */,
 				7ECC3EAD1CF7FB3700B452C5 /* Assets.xcassets in Resources */,
+				7E04E9331DA9F4D90025047F /* 2.9.17.15.js in Resources */,
 				7ECC3EAB1CF7FB3700B452C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,8 +314,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ECC3EE11CF7FB4700B452C5 /* RNEncryptor.m in Sources */,
 				7ECC3EA81CF7FB3700B452C5 /* ViewController.m in Sources */,
+				7ECC3EDE1CF7FB4700B452C5 /* RNCryptor.m in Sources */,
 				7ECC3EA51CF7FB3700B452C5 /* AppDelegate.m in Sources */,
+				7ECC3EDF1CF7FB4700B452C5 /* RNCryptorEngine.m in Sources */,
+				7ECC3EE01CF7FB4700B452C5 /* RNDecryptor.m in Sources */,
 				7ECC3EA21CF7FB3700B452C5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,7 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -403,7 +451,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -416,6 +464,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = shangpin.com.Tools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +476,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = shangpin.com.Tools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +548,7 @@
 				7ECC3ECC1CF7FB3700B452C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7ECC3ECD1CF7FB3700B452C5 /* Build configuration list for PBXNativeTarget "ToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +557,7 @@
 				7ECC3ECF1CF7FB3700B452C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7ECC3ED01CF7FB3700B452C5 /* Build configuration list for PBXNativeTarget "ToolsUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +566,7 @@
 				7ECC3ED21CF7FB3700B452C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
