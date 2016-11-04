@@ -27,14 +27,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSString *patch = [[NSBundle mainBundle] pathForResource:@"2.9.18.6" ofType:@"js"];
+    NSString *patch = [[NSBundle mainBundle] pathForResource:@"2.9.17.17" ofType:@"js"];
     
     NSData *data = [NSData dataWithContentsOfFile:patch];
     
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask,YES);
     NSString *plistPath = [paths firstObject];
     
-    NSString *path = [plistPath stringByAppendingPathComponent:@"2.9.18.6.js"];
+    NSString *path = [plistPath stringByAppendingPathComponent:@"2.9.17.17.js"];
     
     //加密
     NSError *error = nil;

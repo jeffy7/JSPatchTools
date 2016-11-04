@@ -320,3 +320,21 @@ defineClass('SPInteractionWebViewController' ,{initWithRequestParameterModel: fu
     if (model.analyzeValue().length() > 0) {self.setIndexPosition(model.analyzeValue().componentsSeparatedByString("|").lastObject());}NSNotificationCenter.defaultCenter().addObserver_selector_name_object(self, "callBackSucceedOK", "LoginSucceedDismissVerifyPhoneView", null);}return self;},
     callBackSucceedOK: function() {
         self.performSelector_withObject_afterDelay("scrollLoginOrRegistSuccess", null, 0.1);},});
+
+defineClass('SPSubmitOrderBaseView' ,{
+            
+            manageOprator: function(oprator) {
+            
+            self.ORIGmanageOprator(oprator);
+            if (self.dataOprator()) {
+            
+            if (oprator.contentModel().buyIds() && oprator.contentModel().buyIds().count() > 0) {
+            self.dataOprator().contentModel().setBuyIds(oprator.contentModel().buyIds());
+            }
+            if (oprator.contentModel().isProductCod() && oprator.contentModel().isProductCod().length() > 0) {
+            self.dataOprator().contentModel().setIsProductCod(oprator.contentModel().isProductCod());
+            }
+            }
+            },
+            });
+
